@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Booksky</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital@1&display=swap" rel="stylesheet">
+    </head>
+<body>
+    <div class="navbar">
+    <h1>BOOKSKY</h1>
+    </div>
+    <div class="container">
+    <div class="book-container">
+        <h2>Rich Dad Poor Dad</h2>
+        <h5>Robert</h5>
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Sit voluptatibus adipisci sunt eum? Debitis, at? Nulla explicabo magnam incidunt praesentium nostrum similique dolor odit natus necessitatibus minima quos reprehenderit maiores velit repellat numquam expedita aliquid iusto voluptatem, ullam labore! Placeat?</p>
+        <button class="delete-book" onclick="deleteitem(event)">Delete</button>
+    </div>
+    </div>
+    <div class="popup-overlay"></div>
+    <div class="popup-box">
+        <h2>Add Book</h2>
+        <form>
+            <input type="text" placeholder="Book Title" class="add-book">
+            <input type="text" placeholder="Book Author" class="add-author">
+            <textarea type="text" placeholder="Short Despcription.." class="book-description"></textarea>
+            <button class="add-button">ADD</button>
+            <button class="cancel-button">CANCEL</button>
+        </form>
+    </div>
+    <button id="plus-button">+</button>
+    <script src="script.js"></script>
+
+    
+    
+</body>
+</html>

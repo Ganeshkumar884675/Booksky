@@ -1,0 +1,138 @@
+*{
+    margin:0%;
+    padding: 0%;   
+}
+body{
+    font-family: 'Poppins', sans-serif;
+}
+.navbar{
+    background-color: #FD6569;
+    padding: 10px;
+    margin: 2px;
+    border-radius: 5px;
+}
+.book-container{
+    background-color: black;
+    color: white;
+    width: 20%;
+    padding: 20px;
+    margin: 30px;
+    border-radius: 10px;
+    display: inline-block;
+    vertical-align: top;
+}
+.book-container h2{
+    color: #FD6569;
+}
+.book-container button{
+    background-color: #FD6569;
+    color: black;
+    border-radius: 10px;
+    padding: 5px;
+}
+.delete-book{
+    padding: 10px;
+}
+#plus-button{
+    background-color: #FD6569;
+    color: black;
+    padding: 30px;
+    border-radius: 100%;
+    font-size: 40px;
+    border: none;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+}
+.popup-overlay{
+    background-color: black;
+    opacity: 0.8;
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none;
+}
+.popup-box{
+    background-color: #FD6569;
+    width: 40%;
+    padding: 40px;
+    border-radius: 10px;
+    position: absolute;
+    top: 20%;
+    left: 30%;
+    z-index: 2;
+    display: none;
+    
+}
+.add-book{
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+}
+.add-author{
+    background: transparent;
+    border: none;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border-bottom: solid black 2px;
+    
+}
+.book-description{
+    background: transparent;
+    width: 100%;
+    padding: 5px;
+    margin: 5px;
+    font-size: 20px;
+    border: solid black 2px;
+}
+.add-book::placeholder{
+    color: black;
+}
+.add-author::placeholder{
+    color: black;
+}
+.book-description::placeholder{
+    color: black;
+}
+
+     
+
+.add-button{
+    background-color: black;
+    color: white;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px;
+    
+}
+.cancel-button{
+    background-color: black;
+    color: white;
+    padding-left:20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    margin: 5px
+}
+.add-book:focus{
+    outline: none;
+}
+.add-author:focus{
+    outline: none;
+}
+.book-description:focus{
+    outline: none;
+}
